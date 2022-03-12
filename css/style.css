@@ -1,0 +1,241 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+
+.about-me-profession {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+}
+
+li {
+  color: white;
+  color: #595959;
+  font-size: 14px;
+  line-height: 24px;
+}
+.main-section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: white;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px;
+}
+
+/* main content section */
+.main-content {
+  padding: 100px 90px;
+  width: calc(100% - 370px);
+}
+
+.about-me {
+  margin-bottom: 40px;
+}
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0px 0px 20px 0px;
+  color: black;
+}
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  margin: 0px 0px 25px 0px;
+  color: black;
+}
+.about-me-description {
+  width: 400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+/* my certificates section */
+.main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: black;
+  margin-bottom: 10px;
+}
+.my-certificates-list {
+  padding: 0px 0px 0px 17px;
+}
+.my-certificates-item {
+  color: black;
+  font-weight: bold;
+}
+.my-certificates-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 5px;
+}
+.my-certificates-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.my-certificates-bracket {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+}
+.certificates {
+  margin-bottom: 50px;
+}
+/* work experience section */
+
+.work-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 0px 0px 10px 0px;
+}
+.company-name {
+  color: #fb6d3a;
+}
+.work-experience-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 0px 0px 10px 0px;
+}
+.work-period-devider {
+  color: black;
+}
+.my-duties-list {
+  padding-left: 18px;
+}
+.my-dutie-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.my-work-experience-company-section {
+  margin: 0px 0px 15px 0px;
+}
+
+/* side bar section */
+.sidebar {
+  background-color: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+}
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+}
+
+.contacts-section,
+.tech-skills {
+  margin: 50px 0 0 40px;
+}
+.sidebar-title,
+.tech {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: white;
+  margin-bottom: 10px;
+}
+.soft-skills,
+.language {
+  margin: 45px 0 0 40px;
+}
+.soft,
+.languages {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contacts-section-type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+  margin-right: 15px;
+}
+.contacts-section-link {
+  color: #565e6a;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.contacts-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 15px;
+  color: #565e6a;
+}
+.text-contacts {
+  color: #565e6a;
+}
+/* skills  */
+.tech-skills-list {
+  padding: 0 0 0 17px;
+}
+.tech-skills-item {
+  color: #fb6d3a;
+}
+.tech-skills-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+}
+.soft-skills-list {
+  padding: 0 0 0 17px;
+}
+.soft-skills-item {
+  color: #fb6d3a;
+}
+.soft-skills-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+}
+/* language  */
+.language-name {
+  color: #fb6d3a;
+}
+.language-name-result {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+  margin-left: 5px;
+}
